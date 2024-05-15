@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;   }
+html {
+   font-size: 62.5%;
+   font-family: sans-serif;   }
+@media (max-width : 768px) {
+   html {
+      font-size: 43.75%;
+   }   }
+/*------------------------*/
+.drag {
+   width: 100% ;
+   height: 100vh ;
+   background: #0b0423 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 5rem ;   }
+.drag ul {
+   width: 30rem ;
+   color: white;
+   min-height: 40rem ;
+   padding: 2.5rem ;
+   border: 2px dashed white;
+   list-style: none;
+   border-radius: 1rem ;
+   display: flex;
+   flex-direction: column;
+   gap: 3rem ;   }
+.drag ul li {
+   font-size: 2rem ;
+   width: 100%;
+   background-color: #e91e63 ;
+   padding: 2rem ;
+   display: flex;
+   align-items: center;
+   gap: 1rem ;
+   cursor: grab;   }
+.drag ul img {
+   width: 1rem ;   }
+/*------------------------*/
